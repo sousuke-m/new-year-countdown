@@ -4,7 +4,7 @@ for(var i = 2;i > 1;i++){
     let date1 = new Date();
     let date2 = new Date(2024,1,1);
     let date3 = date2.getTime() - date1.getTime();
-    if(date3 == 0||date3 < 0){
+    if(date3 == 0){
         aria1.remove();
         i = 0;
         aria_main.innerHTML = `<h1>明けましておめでとう🎍</h1><h2>Happy new year</h2>`;
