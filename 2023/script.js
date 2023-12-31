@@ -1,14 +1,14 @@
 window.onload = function() {
     var aria_main = document.querySelector("main");
     var aria1 = document.querySelector(".aria1");
-    for(var _i_ = 2;i++;i>1){
+    for(var i = 2;i > 1;i++){
         let date1 = new Date();
         let date2 = new Date('2024/1/1 0:00:00');
         let date3 = date2.getTime() - date1.getTime();
         console.log(date3);
         if(date3 == 0||date3 > 0){
             aria1.remove();
-            _i_ = 0;
+            i = 0;
             aria_main.innerHTML = `<h1>明けましておめでとう🎍</h1><h2>Happy new year</h2>`;
             console.log("happy new year");
         }
