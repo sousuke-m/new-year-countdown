@@ -1,6 +1,6 @@
 var aria_main = document.querySelector(".main");
 var aria1 = document.querySelector(".aria1");
-for(var i = 2;i > 1;i++){
+for(let i = 2;i > 1;i++){
     let date1 = new Date();
     let date2 = new Date(2024,1,1);
     let date3 = date2.getTime() - date1.getTime();
