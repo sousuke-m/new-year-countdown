@@ -1,7 +1,7 @@
 window.onload = function() {
     var aria_main = document.querySelector("main");
     var aria1 = document.querySelector(".aria1");
-    for(var _i_ = 1;i++;i>0){
+    for(var _i_ = 2;i>1;i++){
         let date1 = new Date();
         let date2 = new Date('2024/1/1 0:00:00');
         let date3 = date2.getTime() - date1.getTime();
