@@ -4,7 +4,7 @@ window.onload = function() {
     for(var i = 2;i > 1;i++){
         let date1 = new Date();
         let date2 = new Date('2024/1/1 0:00:00');
-        let date3 = date2.getTime() - date1.getTime();
+        let date3 = date1.getTime() - date2.getTime();
         console.log(date3);
         if(date3 == 0||date3 > 0){
             aria1.remove();
